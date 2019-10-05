@@ -186,7 +186,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/imgblog.jpeg'
+        icon: 'static/dogWithbigMouth.jpeg'
       },
     },
     'gatsby-plugin-offline',

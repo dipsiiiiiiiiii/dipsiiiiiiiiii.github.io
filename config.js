@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://kani-kim.github.io',
   pathPrefix: '/',
   title: 'Blog by DIPSI',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: '하루하루 성장하고 있는 예비 개발자',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,9 +25,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: '김 관희',
+    photo: '/macbook_main-unsplash.jpg',
+    bio: '하루하루 성장하고 있는 예비 개발자',
     contacts: {
       email: '',
       facebook: '#',
@@ -37,7 +37,7 @@ module.exports = {
       rss: '',
       vkontakte: '',
       linkedin: '#',
-      instagram: '#',
+      instagram: '#dipsiiiiiiiiii',
       line: '',
       gitlab: '',
       weibo: ''
