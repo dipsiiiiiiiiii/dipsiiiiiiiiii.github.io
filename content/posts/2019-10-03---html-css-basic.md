@@ -1,9 +1,9 @@
 ---
 title: HTML/CSS를 이용한 Layout
-date: "2017-08-19T22:40:32.169Z"
+date: "2019-10-03T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/humane-typography-in-the-digital-age/"
+slug: "/posts/html-css-basic/"
 category: "Typography"
 tags:
   - "Design"

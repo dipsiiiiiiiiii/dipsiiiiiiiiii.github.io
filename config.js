@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: '김 관희',
     photo: '/macbook_main-unsplash.jpg',
-    bio: '하루하루 성장하고 있는 예비 개발자',
+    bio: '하루하루 성장하고 있는 frontend 개발자',
     contacts: {
       email: '',
       facebook: '#',
