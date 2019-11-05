@@ -1,4 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by DIPSI]]></title><description><![CDATA[하루하루 성장하고 있는 예비 개발자]]></description><link>https://kani-kim.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 22 Oct 2019 13:28:05 GMT</lastBuildDate><item><title><![CDATA[[TIL] 2019.10.22. 알고리즘 접근법, React-Native 문법]]></title><description><![CDATA[Today I Learned]]></description><link>https://kani-kim.github.io/posts/20191022-til/</link><guid isPermaLink="false">https://kani-kim.github.io/posts/20191022-til/</guid><pubDate>Tue, 22 Oct 2019 15:40:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;알고리즘-세션&quot;&gt;&lt;a href=&quot;#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%B8%EC%85%98&quot; aria-label=&quot;알고리즘 세션 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;알고리즘 세션&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by DIPSI]]></title><description><![CDATA[하루하루 성장하고 있는 예비 개발자]]></description><link>https://kani-kim.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Nov 2019 14:00:22 GMT</lastBuildDate><item><title><![CDATA[[TIL] 2019.11.05. ]]></title><description><![CDATA[Today I Learned]]></description><link>https://kani-kim.github.io/posts/20191105-til/</link><guid isPermaLink="false">https://kani-kim.github.io/posts/20191105-til/</guid><pubDate>Tue, 05 Nov 2019 12:40:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;onclick에-함수-이름에-인자-넣기&quot;&gt;&lt;a href=&quot;#onclick%EC%97%90-%ED%95%A8%EC%88%98-%EC%9D%B4%EB%A6%84%EC%97%90-%EC%9D%B8%EC%9E%90-%EB%84%A3%EA%B8%B0&quot; aria-label=&quot;onclick에 함수 이름에 인자 넣기 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;onClick에 함수 이름에 인자 넣기&lt;/h2&gt;
+&lt;p&gt;onClick={() =&gt; { function(e) }}&lt;/p&gt;
+&lt;h2 id=&quot;responsive-web&quot;&gt;&lt;a href=&quot;#responsive-web&quot; aria-label=&quot;responsive web permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;responsive web&lt;/h2&gt;
+&lt;p&gt;사이즈가 조절 되면서 모든 화면이 잘 나올 수 있게 구현되는 웹&lt;/p&gt;
+&lt;p&gt;naver는 초기 width값을 받아서(window.innerWidth) naver.com 이나 m.naver.com으로 아예 소스코드가 분리돼있다.&lt;/p&gt;
+&lt;h2 id=&quot;media-query--responsive-web을-구현하는-css-technique&quot;&gt;&lt;a href=&quot;#media-query--responsive-web%EC%9D%84-%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94-css-technique&quot; aria-label=&quot;media query  responsive web을 구현하는 css technique permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;media query : responsive web을 구현하는 css technique!&lt;/h2&gt;
+&lt;p&gt;syntax
+@media only screen and (max-width: 480px) {
+body {
+}&lt;/p&gt;
+&lt;p&gt;}
+@media only print 등등&lt;/p&gt;
+&lt;p&gt;inline보다 className이 더 우선순위가 높다&lt;/p&gt;
+&lt;p&gt;@media only screen and (min-width: 320px) and (max-width: 480px) {&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;style 폴더 밑에 config.scss 안에다가 mediaQuery 변수들을 지정해서 import해서 사용하면 된다.&lt;/p&gt;
+&lt;h2 id=&quot;styled-component&quot;&gt;&lt;a href=&quot;#styled-component&quot; aria-label=&quot;styled component permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;styled component&lt;/h2&gt;
+&lt;h2 id=&quot;break-point&quot;&gt;&lt;a href=&quot;#break-point&quot; aria-label=&quot;break point permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;break point&lt;/h2&gt;
+&lt;p&gt;responsive standard
+break point가 하나면 한 요소에 대해서 2개의 css를 넣는 거다.
+2개면 3개
+3개면 4개&lt;/p&gt;
+&lt;p&gt;min-deivce-width&lt;/p&gt;
+&lt;p&gt;1.
+component 2개를 만들어둬서 display block, none으로 조절&lt;/p&gt;
+&lt;p&gt;2.
+resize 이벤트를 붙여서 크기 조건에 따라 component를 넣음.&lt;/p&gt;
+&lt;h2 id=&quot;react-ref&quot;&gt;&lt;a href=&quot;#react-ref&quot; aria-label=&quot;react ref permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;react ref&lt;/h2&gt;
+&lt;p&gt;window 자체에 click 이벤트 달고나서 거기에서 함수 호출&lt;/p&gt;
+&lt;p&gt;component는 재사용하기 위함인데 getElementById처럼 접근하면 불편하다.
+ref를 사용하면 dom에 직접 접근할 수 있다. className, id 없어도!&lt;/p&gt;
+&lt;p&gt;ref = (node =&gt; this.searchContainer = node)&lt;/p&gt;
+&lt;p&gt;componentDidmount에 저장해두면 다른 페이지 가서도 저장 돼있으므로 componentWillUnmount에서 없애줘야 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[TIL] 2019.10.25. ]]></title><description><![CDATA[Today I Learned]]></description><link>https://kani-kim.github.io/posts/20191025-til/</link><guid isPermaLink="false">https://kani-kim.github.io/posts/20191025-til/</guid><pubDate>Fri, 25 Oct 2019 15:40:32 GMT</pubDate><content:encoded>&lt;p&gt;백엔드와 연결하려면 백엔드 컴퓨터의 서버를 불러와서 end point를 추가한다. postman에서 백엔드 주소 치고 POST로 바꾸고 Body태그로 바꾸고 json으로 확장자 바꾼다.&lt;/p&gt;
+&lt;p&gt;json 데이터 타입.
+json 폼에서는 홑따옴표 안되고 쌍따옴표만 된다.&lt;/p&gt;
+&lt;p&gt;테스트를 통해서 되는지 확인하고 &lt;/p&gt;
+&lt;p&gt;데이터를 호출 할 때 fetch함수.
+첫번째 인자는 주소
+두번째 인자는 &lt;/p&gt;
+&lt;p&gt;JSON.stringify : 객체를 JSON화 시킴
+JSON.parse : &lt;/p&gt;
+&lt;p&gt;fetch는 호출만 한다. 응답 잠시 기다리다가 오면
+fetch(‘주소’)
+.then(res=&gt;{res.json})
+.then(res=&gt;{console.log(res)})&lt;/p&gt;
+&lt;h2 id=&quot;git-저장소-변경&quot;&gt;&lt;a href=&quot;#git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%B3%80%EA%B2%BD&quot; aria-label=&quot;git 저장소 변경 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;git 저장소 변경&lt;/h2&gt;
+&lt;p&gt;실수로 repository를 지웠다..&lt;br&gt;
+저장소 변경하는 방법을 알아보자.&lt;/p&gt;
+&lt;p&gt;git remote set-url origin github주소 라고 하면 된다..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[TIL] 2019.10.24. ]]></title><description><![CDATA[Today I Learned]]></description><link>https://kani-kim.github.io/posts/20191024-til/</link><guid isPermaLink="false">https://kani-kim.github.io/posts/20191024-til/</guid><pubDate>Thu, 24 Oct 2019 15:40:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git-세션&quot;&gt;&lt;a href=&quot;#git-%EC%84%B8%EC%85%98&quot; aria-label=&quot;git 세션 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;git 세션&lt;/h2&gt;
+&lt;p&gt;버전관리의 기능&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;내역 날짜,
+동일한 날에 버전이 많이 나오게 되면
+바뀐 내역을 확인 하기 위해서는 엑셀파일로 저장
+협업할 때 더 복잡해진다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;git을 안했을 떄&lt;/p&gt;
+&lt;p&gt;DB를 만들어서 저장하면 되는데 그럼 그 DB를 접근하는 프로그램을 만들어야 된다.&lt;/p&gt;
+&lt;p&gt;git basics&lt;/p&gt;
+&lt;p&gt;modified 수정사항 &gt; staged 중간 세이브 &gt; committed
+commit 해야만 history에 남는다.&lt;/p&gt;
+&lt;p&gt;commit을 하게 되면 지워야 하는게 큰 일이라서 중간 세이브가 필요하다.
+문서 수정 과정이랑 똑같다.&lt;/p&gt;
+&lt;p&gt;git commands
+모든 git commands는 git으로 시작한다.
+git add가 staged상태가 됨.
+git diff는 중간 세이브 이전의 파일만 보여줌
+git status를 상태를 보여줌&lt;/p&gt;
+&lt;p&gt;협업할 때 영향을 안 받고 싶을 때 branch로 빠져서 기능을 구현한 다음에 master branch로 merge해줘야 한다.
+branch는 개발자 별로 하는게 아니라 기능별로 해야 한다.
+merge하기 전에 코드 리뷰를 받고 해야 한다.
+revert할 때 원하는 위치로 옮기기 편하다.&lt;/p&gt;
+&lt;p&gt;branch에서 또 branch를 만들 수는 있지만 이미 기존의 branch가 안정적이지 않으므로 안 해야 한다.&lt;/p&gt;
+&lt;p&gt;gitignore 는 캐시파일, 비공개파일 넣어놓으면 알아서 history에 반영하지 않는다.&lt;/p&gt;
+&lt;p&gt;github은 git의 중앙 서버 역할
+commit까지만 하면 local에서만 보여지므로 다른 개발자가 볼 수 없다.
+push까지 해야 github에 저장되서 다른 개발자들이 볼 수 있다.
+다른 개발자는 pull을 통해 내가 push한 파일을 볼 수 있게 된다.
+pull은 새로운 수정 사항만 갖고 올 수 있다.
+clone은 새로운 컴퓨터나 개발자가 새로 왔을 때 제일 먼저 해줘야 한다.
+fork는 권한 없이 clone기능을 하는 건데 복사 파일을 갖고 오는 거다. 단, original에는 반영이 안되고 반영은 PR을 통해 할 수 있다.&lt;/p&gt;
+&lt;p&gt;내가 수정한 것과 다른 개발자가 수정한 것이 겹쳐 버리면 git은 둘 중에 무엇을 선택해야 할지 모른다.&lt;/p&gt;
+&lt;p&gt;git status를 하면 merge 안되는 위치가 나온다. 그러면 직접 수정해야 한다.&lt;/p&gt;
+&lt;p&gt;branch는 기능을 다 구현하면 Merge하고 지워야 한다.
+branch 만드는 과정은 local에서 하는 거다.
+clone으로 복제해온 master branch에서 local에서 새로운 branch를 만든다.
+새로운 branch를 만들 때는 항상 pull먼저 해주고 최신 버전으로 master branch를 해주고 그 다음 branch를 만들어야 한다..&lt;/p&gt;
+&lt;p&gt;merge 하기 전 코드 리뷰 하는 과정은 내 local에서 작업하던 branch를 github에 보내준다.
+관리자가 PR(pull request)을 통해 코드리뷰를 해주고 LGTM(Looks good to me)를 남겨주고 관리자가 직접 merge한다.
+관리자가 할 수도 있고 다른 여러 사람이 할 수 있다.&lt;/p&gt;
+&lt;p&gt;git 실습&lt;/p&gt;
+&lt;p&gt;브랜치명은 ‘feature/kani’
+clone을 한 상태면 이미 기존에 init을 했기 떄문에 해줄 필요가 없다.&lt;/p&gt;
+&lt;p&gt;branch를 merge 한 이후에는 master branch로 이동한 후 git branch -d branch이름   으로 삭제하면 된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[TIL] 2019.10.23. ]]></title><description><![CDATA[Today I Learned]]></description><link>https://kani-kim.github.io/posts/20191023-til/</link><guid isPermaLink="false">https://kani-kim.github.io/posts/20191023-til/</guid><pubDate>Wed, 23 Oct 2019 15:40:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;javascript-splice-slice-차이&quot;&gt;&lt;a href=&quot;#javascript-splice-slice-%EC%B0%A8%EC%9D%B4&quot; aria-label=&quot;javascript splice slice 차이 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;javascript splice, slice 차이&lt;/h1&gt;
+&lt;h1 id=&quot;rn&quot;&gt;&lt;a href=&quot;#rn&quot; aria-label=&quot;rn permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RN&lt;/h1&gt;
+&lt;h1 id=&quot;은우님-세션&quot;&gt;&lt;a href=&quot;#%EC%9D%80%EC%9A%B0%EB%8B%98-%EC%84%B8%EC%85%98&quot; aria-label=&quot;은우님 세션 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;은우님 세션&lt;/h1&gt;
+&lt;h2 id=&quot;http란&quot;&gt;&lt;a href=&quot;#http%EB%9E%80&quot; aria-label=&quot;http란 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP란?&lt;/h2&gt;
+&lt;p&gt;HyperText Transfer Protocol&lt;/p&gt;
+&lt;p&gt;요청을 보내는 주체는 Client&lt;br&gt;
+응답은 Server
+백엔드 API서버
+서버와 클라이언트 사이의 통신은 독립적이다.
+통신간의 상태를 저장하지 않는다. &gt; stateless&lt;/p&gt;
+&lt;p&gt;예 - 로그인)
+로그인 저장한 정보를 같이 보낸다.&lt;/p&gt;
+&lt;p&gt;쿠키를 통해서 저장한다. &gt; 실질적으로 File. &gt;&gt; 검색해서 정리. &amp;#x3C;&amp;#x3C;은우님 자료도 보면서
+쿠키의 유효기간을 둔다.&lt;br&gt;
+은행은 짧게 준다. &lt;/p&gt;
+&lt;p&gt;HTTP Request구조
+HTTP Method
+get: 받는다
+post: 생성&lt;/p&gt;
+&lt;p&gt;원격에 있는 코드는 어떻게 호출할까?
+API는 원격 호출이다.
+원격으로 호출하려면 그 데이터가 있는 서버를 찾아야 한다.
+호스트 도메인을 찾아야 한다. 사람을 찾으려면 아파트만 알면 안되고 동, 호수를 알아야 한다.
+target이 여기서 동, 호수다.&lt;/p&gt;
+&lt;p&gt;end point( 접점 )
+동, 호수를 찾는게 end point다. 그 중에 단 하나!
+요청이 도달하는 끝 지점!&lt;/p&gt;
+&lt;p&gt;  백엔드는 end point 구현
+프론트엔드는 end point를 호출&lt;/p&gt;
+&lt;p&gt;HTTP 응답 구조
+status line : 요청 받은 것에 대한 상태를 나타냄
+header는 똑같다.&lt;/p&gt;
+&lt;p&gt;RESTful API&lt;/p&gt;
+&lt;p&gt;주소는 명사가 들어간다. 동사는 Method로 표현해준다.&lt;/p&gt;
+&lt;p&gt;주소를 작명하는 기준, 패턴
+1 user read              GET /user/ id
+1 user create            POST /user
+all users read           GET /users
+1 user delete            DELETE /user /id&lt;/p&gt;
+&lt;p&gt;엔드 포인트가 많아질 때 기억하기 어려우므로 기억하기 기준을 만들어서 함.
+다른 주소들도 유추가 가능하게 한다.&lt;/p&gt;
+&lt;p&gt;protocol host port target options&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[TIL] 2019.10.22. 알고리즘 접근법, React-Native 문법]]></title><description><![CDATA[Today I Learned]]></description><link>https://kani-kim.github.io/posts/20191022-til/</link><guid isPermaLink="false">https://kani-kim.github.io/posts/20191022-til/</guid><pubDate>Tue, 22 Oct 2019 15:40:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;알고리즘-세션&quot;&gt;&lt;a href=&quot;#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%B8%EC%85%98&quot; aria-label=&quot;알고리즘 세션 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;알고리즘 세션&lt;/h1&gt;
 &lt;h2 id=&quot;풀이-접근-과정&quot;&gt;&lt;a href=&quot;#%ED%92%80%EC%9D%B4-%EC%A0%91%EA%B7%BC-%EA%B3%BC%EC%A0%95&quot; aria-label=&quot;풀이 접근 과정 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;풀이 접근 과정&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;문제를 완벽히 이해 &gt; 확인 과정까지!! ex)제가 이해하기로는 …&lt;br&gt;
